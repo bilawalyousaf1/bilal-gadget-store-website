@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilal Gadget Store - About</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+      <h1>Bilal Gadget Store</h1>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-btn"
+          ><i class="fa-solid fa-house"></i> Home</a
+        >
+        <a href="products.html" class="nav-btn"
+          ><i class="fa-solid fa-box-open"></i> Products</a
+        >
+        <a href="about.html" class="nav-btn"
+          ><i class="fa-solid fa-info-circle"></i> About Us</a
+        >
+        <a href="contact.html" class="nav-btn"
+          ><i class="fa-solid fa-envelope"></i> Contact</a
+        >
+      </nav>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <!-- MAIN ABOUT SECTION -->
+    <main class="about-section">
+      <div class="about-container">
+        <h2>About Bilal Gadget Store</h2>
+        <p>
+          Bilal Gadget Store is your one-stop destination for the latest mobile
+          accessories. We provide high-quality products at affordable prices,
+          ensuring your gadgets stay protected and stylish.
+        </p>
+
+        <div class="history">
+          <h3>Our Journey</h3>
+          <ul>
+            <li>2020: Store Founded in Karachi</li>
+            <li>2021: Over 500 Customers Served</li>
+            <li>2022: Expanded Product Range</li>
+            <li>2023: Launched Online Delivery</li>
+          </ul>
+        </div>
+
+        <div class="mission-vision">
+          <h3>Mission</h3>
+          <p>Make high-quality mobile accessories accessible to everyone.</p>
+          <h3>Vision</h3>
+          <p>
+            Become the most trusted mobile accessories store in Karachi and
+            beyond.
+          </p>
+        </div>
+
+        <div class="stats">
+          <h3>Fun Facts</h3>
+          <div class="stats-boxes">
+            <div class="stat-box">
+              <h4>1000+</h4>
+              <p>Products Sold</p>
+            </div>
+            <div class="stat-box">
+              <h4>800+</h4>
+              <p>Happy Customers</p>
+            </div>
+            <div class="stat-box">
+              <h4>50+</h4>
+              <p>Top Brands</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta">
+          <a href="contact.html" class="cta-btn"
+            ><i class="fa-solid fa-envelope"></i> Contact Us</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <h3>Bilal Gadget Store</h3>
+        <p>Best Mobile Accessories at Your Fingertips</p>
+        <div class="socials">
+          <a href="#" class="facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bilal Gadget Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

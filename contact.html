@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilal Gadget Store - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+      <h1>Bilal Gadget Store</h1>
+      <div class="nav-container">
+        <nav class="nav-links">
+          <a href="index.html" class="nav-btn"
+            ><i class="fa-solid fa-house"></i> Home</a
+          >
+          <a href="products.html" class="nav-btn"
+            ><i class="fa-solid fa-box-open"></i> Products</a
+          >
+          <a href="about.html" class="nav-btn"
+            ><i class="fa-solid fa-info-circle"></i> About Us</a
+          >
+          <a href="contact.html" class="nav-btn"
+            ><i class="fa-solid fa-envelope"></i> Contact</a
+          >
+        </nav>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTACT SECTION -->
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us, we reply fast!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="#" class="whatsapp-float">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <h3>Bilal Gadget Store</h3>
+        <p>Contact With Our Social Links</p>
+        <div class="socials">
+          <a href="#" class="facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bilal Gadget Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

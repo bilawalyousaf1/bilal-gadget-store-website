@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilal Gadget Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <h1>Bilal Gadget Store</h1>
+      <div class="nav-container">
+        <nav class="nav-links">
+          <a href="index.html" class="nav-btn"
+            ><i class="fa-solid fa-house"></i> Home</a
+          >
+          <a href="products.html" class="nav-btn"
+            ><i class="fa-solid fa-box-open"></i> Products</a
+          >
+          <a href="about.html" class="nav-btn"
+            ><i class="fa-solid fa-info-circle"></i> About Us</a
+          >
+          <a href="contact.html" class="nav-btn"
+            ><i class="fa-solid fa-envelope"></i> Contact</a
+          >
+        </nav>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- body section -->
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="head1">
+          <h2>Welcome to Bilal Gadget Store</h2>
+          <p>Get the latest mobile accessories at best prices!</p>
+          <a href="products.html" class="head-btn">
+            <i class="fa-solid fa-cart-shopping"></i> Shop Now
+          </a>
+        </div>
+      </section>
+
+      <!-- Product Cards -->
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="images/image1.jpg" alt="air buds image" />
+          <h3>K55 TWS wireless gaming earbuds</h3>
+          <p>Rs. 5000</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+
+        <div class="product-card">
+          <img src="images/image2.jpg" alt="imported power bank" />
+          <h3>Power Bank 10000Mah</h3>
+          <p>Rs. 8000</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+
+        <div class="product-card">
+          <img src="images/image3.jpg" alt="Product 3" />
+          <h3>Iphone Power Bank</h3>
+          <p>Rs. 12000</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+
+        <div class="product-card">
+          <img src="images/image4.jpg" alt="iphone xsmax cover image" />
+          <h3>Iphone Xsmax Cover</h3>
+          <p>Rs. 1000 Only</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+
+        <div class="product-card">
+          <img src="images/image5.jpg" alt="charger image" />
+          <h3>Ronin Fast Charger</h3>
+          <p>Rs. 600</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+
+        <div class="product-card">
+          <img src="images/image6.jpg" alt="Iphone 15 pro image" />
+          <h3>Iphone 15 Pro</h3>
+          <p>Rs.176,000 Only</p>
+          <a href="products.html" class="btn"
+            ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>Bilal Gadget Store</h3>
+        <p>Best Mobile Accessories at Your Fingertips</p>
+        <div class="socials">
+          <a href="#" class="facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bilal Gadget Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
