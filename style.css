@@ -1,4 +1,4 @@
-/* GENERAL */
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   color: #fff;
 }
 
-/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -78,7 +78,6 @@ header h1 {
   border-radius: 2px;
 }
 
-/* BANNER */
 .banner {
   width: 100%;
   max-width: 1366px;
@@ -174,7 +173,7 @@ header h1 {
   transform: translateY(-3px);
 }
 
-/* PRODUCTS GRID */
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -222,7 +221,6 @@ header h1 {
   box-shadow: 0 4px 12px rgba(0, 191, 255, 0.3);
 }
 
-/* FOOTER */
 footer {
   background-color: #1a1a2e;
   color: #fff;
@@ -249,7 +247,6 @@ footer .socials a {
   color: #25d366;
 }
 
-/* product page banner */
 .products-banner {
   width: 100%;
   max-width: 1366px;
@@ -317,7 +314,6 @@ footer .socials a {
   }
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -367,7 +363,6 @@ footer .socials a {
   }
 }
 
-/* ===== CONTACT SECTION ===== */
 .contact-section {
   max-width: 500px;
   margin: 50px auto;
@@ -381,7 +376,7 @@ footer .socials a {
   letter-spacing: 1px;
 }
 
-/* CONTACT FORM BOX */
+
 .contact-form {
   background: #222244;
   padding: 30px;
@@ -399,7 +394,7 @@ footer .socials a {
   transform: translateY(-3px);
 }
 
-/* INPUTS & TEXTAREA */
+
 .contact-form input,
 .contact-form textarea {
   padding: 14px 16px;
@@ -412,26 +407,24 @@ footer .socials a {
   transition: 0.3s ease;
 }
 
-/* Hover Effect */
+
 .contact-form input:hover,
 .contact-form textarea:hover {
   background: #32325a;
 }
 
-/* Focus Glow */
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #6a5acd;
   box-shadow: 0 0 10px #6a5acd;
 }
 
-/* TEXTAREA HEIGHT */
+
 .contact-form textarea {
   resize: none;
   height: 140px;
 }
 
-/* BUTTON STYLE */
 .contact-form button {
   padding: 14px;
   font-size: 18px;
@@ -453,23 +446,22 @@ footer .socials a {
   bottom: 25px;
   right: 25px;
   font-size: 40px;
-  color: white; /* icon color */
-  background-color: rgb(33, 208, 33); /* green background */
-  padding: 10px; /* icon ke charo taraf space */
-  border-radius: 10px; /* circular button */
-  display: flex; /* center icon properly */
+  color: white;
+  background-color: rgb(33, 208, 33);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-  line-height: 0; /* top-bottom white space khatam */
+  line-height: 0;
 }
 
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
 
-/* ===== ABOUT PAGE ===== */
 .about-section {
   max-width: 900px;
   margin: 60px auto;
@@ -514,7 +506,6 @@ footer .socials a {
   font-size: 16px;
 }
 
-/* Mission & Vision */
 .mission-vision p {
   font-size: 16px;
   margin-bottom: 12px;
@@ -543,7 +534,6 @@ footer .socials a {
   font-size: 14px;
 }
 
-/* Call to Action */
 .cta {
   text-align: center;
   margin-top: 25px;
@@ -566,7 +556,6 @@ footer .socials a {
   transform: translateY(-2px);
 }
 
-/* Hamburger for mobile */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -579,7 +568,6 @@ footer .socials a {
   background-color: #fff;
 }
 
-/* Navbar responsive */
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
@@ -620,7 +608,6 @@ footer .socials a {
 .stat-box {
   width: 70%;
 }
-/* ===== PRODUCTS PAGE ===== */
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -698,7 +685,6 @@ footer .socials a {
   box-shadow: 0 12px 25px rgba(0, 191, 255, 0.4);
 }
 
-/* Badge / Discount Label */
 .product-card::before {
   content: "New";
   position: absolute;
@@ -725,7 +711,6 @@ footer .socials a {
   color: #fff;
 }
 
-/* Button */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -745,7 +730,6 @@ footer .socials a {
   box-shadow: 0 6px 15px rgba(0, 191, 255, 0.3);
 }
 
-/* Smooth animation */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -757,7 +741,6 @@ footer .socials a {
   }
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .products-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
